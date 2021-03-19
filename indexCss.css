@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.googleHome {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.headerDiv {
+    display: flex;
+    
+    padding: 6px;
+    height: 60px;
+    /* flex-shrink: 0; */
+    box-sizing: border-box;
+}
+.leftHeaderElmnts {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* float: left; */
+    margin-left: 15px;
+    font-size: 13px;
+}
+.rightElements {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* height: 48px; */
+    margin-left: auto;
+    margin-right: 5px;
+    font-size: 13px;
+   
+}
+.appImg {
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    border-radius: 2px;
+    box-sizing: border-box;
+    height: 24px;
+    width: 24px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+.svgImg {
+    color: #5f6368;
+    opacity: 1;
+    height: 24px;
+    width: 24px;
+    fill: currentColor;
+}
+.elements {
+    padding:5px; 
+    margin:0 5px;
+}
+#googleAccount button {
+    background: #1a73e8;
+    border:1px solid transparent;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .25px;
+    line-height: 16px;
+    padding: 9px 23px;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.centerDiv {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#googleImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.searchEngine {
+    width: auto;
+    max-height: 584px;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.srchBar {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    
+}
+#flexSrch {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+}
+.srchGlass {
+    position: relative;
+    display: inline-block;
+    color: #9aa0a6;
+    fill: currentColor;
+    margin-top: 3px;
+    height: 20px;
+    width: 20px;
+    /* line-height: 24px; */
+    padding-top: 4px;
+    padding-right: 13px;
+    
+}
+.searchHolder {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    height: 34px;
+    font-size: 16px;
+}
+.searchHolder input {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    height: 34px;
+    font-size: 16px;
+    
+}
+.microphnImg {
+    flex: 1 0 auto;
+    display: flex;
+    /* align-items: center; */
+    /* border: 0; */
+    /* background: transparent; */
+    /* outline: none; */
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+    margin-top: -6px;
+}
+.srchFeelBtns {
+    height:70px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+     
+}
+input[type="submit"] {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+.footerDiv {
+    display: flex;
+    /* position: absolute; */
+    align-items: center;
+    padding: 6px;
+    width: 100%;
+    height: 50px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    background: #f2f2f2;
+    bottom: 0;
+    font-size: 14px;
+    color: #70757a;
+
+}
+.leftFooterElmnts {
+    display: flex;
+    min-width: 38%;
+    justify-content: flex-start;
+    padding: 5px;
+    margin-left: 15px;
+      
+
+}
+.leftFooterElmnts a {
+    color:#70757a !important;
+}
+.centerFooterElmnts {
+    display: flex;
+    justify-content: center;
+}
+.centerFooterElmnts a {
+    color:#70757a !important;
+}
+.rightFooterElmnts {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 20px;
+}
+.rightFooterElmnts a {
+    color:#70757a !important;
+}
+.srchBar:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    text-decoration: underline;
+}
+#googleApps:hover {
+    background-color: rgba(60,64,67,0.08);
+    border-radius: 50%;
+}
+#googleAccount button:hover {
+    background: #2b7de9;
+    box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);
+}
